@@ -271,8 +271,8 @@
 
 .input-mail {
     border: none;
-    width: 30vw;
-    min-width: 300px;
+    width: 40vw;
+    /* min-width: 100px; */
 }
 
 .flex-bunch {
@@ -371,3 +371,11 @@
     margin-bottom: 10px;
 }
 
+
+/* resposive */
+
+/* @media screen and (max-width:576px) {
+    body {
+        background-color: black;
+    }
+} */

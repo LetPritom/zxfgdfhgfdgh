@@ -3,8 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>My 2nd assignment</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="resposive.css">
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=shopping_cart"
@@ -19,9 +21,9 @@
           </div>
           <div class="nav-sec display-flex">
             <div class="action-home">
-              <a href="#" class="act">Home</a>
-              <a href="#" class="act cl">Shop</a>
-              <a href="#" class="act cl">About us</a>
+              <a href="#" class="act none">Home</a>
+              <a href="#" class="act cl none">Shop</a>
+              <a href="#" class="act cl none">About us</a>
             </div>
             <div class="cart-1 display-flex">
               <div class="cld">
@@ -38,16 +40,18 @@
         <div class="width-container display-flex">
           <div class="hero-section display-flex">
             <div class="hero-content">
-              <h1 class="als">ALWAYS <span class="frs clr">FRESH</span></h1>
-              <h1 class="flw clr">FLOWERS</h1>
+              <div class="media">
+                <h1 class="als align">ALWAYS <span class="frs clr align">FRESH</span></h1>
+              <h1 class="flw clr align">FLOWERS</h1>
               <div class="write">
-                <p>
+                <p class="align">
                   Indulge your senses with the beauty and fragrance of <br />
                   our fresh flower shop. From classic roses to exotic
                   <br />blooms, we offer a wide variety of fresh flowers that
                   <br />
                   are perfect for any occasion.
                 </p>
+              </div>
               </div>
             </div>
             <div class="hero-img">

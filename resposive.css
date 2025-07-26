@@ -1,0 +1,100 @@
+@media screen and (max-width:576px){
+    
+
+    * {
+        overflow-x: hidden;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .hrmg {
+      height: auto;
+      width: auto;
+    }
+
+    .hero-section {
+        flex-direction: column-reverse;
+        height: auto;
+        width: auto;
+        justify-content: flex-end;
+    }
+
+    .media {
+        height: auto;
+        width: 90%;
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 50px;
+        margin-right: 220px;
+    }
+
+    .align {
+        text-align: left;
+    }
+
+    .plants-wr {
+        margin-top: 40px;
+    }
+ 
+    .flw-plane2 {
+    text-align: center;
+    margin: 0px 35px;
+    }
+
+
+    .cart-img {
+    width: 185px;
+    }
+
+    .btn {
+     width: 208px;
+    }
+    
+  .dg-cart {
+    width: 100%;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+
+    .cart-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0 10px;
+        margin-right: 8px;
+    }
+
+    .fl-storeimg {
+        background-image: url(./assets/flower-store.png);
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        width: 100vw;
+    }
+
+    .item-1 {
+        overflow-x: visible;
+    }
+    
+    .bunch-head {
+        font-size: 1.5rem;
+    }
+
+    .input {
+        min-width: 230px;
+    }
+    
+    .link-1 {
+        align-items: flex-start;
+    }
+
+    .footer-container {
+        justify-content: flex-start;
+    }
+
+}
